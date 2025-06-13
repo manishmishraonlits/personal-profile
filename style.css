@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 70px;
+    background-color: coral;
+    display: flex;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+aside {
+    width: 100%;
+    max-width: 300px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
